@@ -6,7 +6,7 @@
 #? Run in the shell:
 #? python3 yt_download_music_list.py
 #! CAUTION 1: script uses ffmpeg and yt-dlp (the last one has to be in the same directory as the script itself)
-#! CAUTION 2: ffmpeg activates the NVIDIA CUDA cores while converting, so if you have AMD GPU change this setting
+#! CAUTION 2: ffmpeg activates the NVIDIA CUDA cores while converting videos
 
 import os
 import time
